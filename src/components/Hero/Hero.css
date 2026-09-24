@@ -1,0 +1,6 @@
+.hero {
+    outline: #00ff00 solid 1px;
+    font-size: 64px;
+    color: #000000;
+    padding: 2rem;
+}

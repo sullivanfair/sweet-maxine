@@ -1,0 +1,16 @@
+.outline {
+    outline: 5px solid #ff0000;
+}
+
+.tegaki {
+    outline: #ff0000 solid 1px;
+    font-size: 24px;
+    color: #4a4a4a;
+    transform: scale(1);
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.tegaki:hover {
+    color: #000000;
+    transform: scale(1.05);
+}

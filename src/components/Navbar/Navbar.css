@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    margin: 0;
+} */
+
+.nav {
+    outline: #ff0000 solid 1px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.nav ul {
+    outline: #0000ff solid 1px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
