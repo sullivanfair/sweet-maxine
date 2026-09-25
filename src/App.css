@@ -1,16 +1,10 @@
-.background {
-  background-image: url(./assets/paper-background.jpg);
-  background-size: cover;
-  min-height: 100vh;
+* { 
+  /* outline: 1px solid red; */
+  box-sizing: border-box;
 }
 
-html, body, #root {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  width: 100vw; 
-  height: 100vh;
+body {
   background-image: url(./assets/paper-background.jpg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 100%;
 }

@@ -10,18 +10,19 @@ type navbarProps = {
 function Navbar({ isHomePage }: navbarProps)
 {
     return (
-        <nav className='nav'>
-            { isHomePage ? 
+        <nav>
+            { 
+                isHomePage ? 
                 <ul>
-                <CustomLink to='/Shows'><Tegaki text='Shows' speed={2}/></CustomLink>
-                <CustomLink to='/About'><Tegaki text='Meet the Band' speed={5}/></CustomLink>
-                <CustomLink to='/Listen'><Tegaki text='Listen' speed={2}/></CustomLink>  
+                    <CustomLink to='/Shows'><Tegaki text='Shows' speed={2}/></CustomLink>
+                    <CustomLink to='/About'><Tegaki text='Meet the Band' speed={5}/></CustomLink>
+                    <CustomLink to='/Listen'><Tegaki text='Listen' speed={2}/></CustomLink>  
                 </ul> : 
                 <ul>
-                <CustomLink to='/'><Tegaki text='Sweet Maxine' speed={5}/></CustomLink>
-                <CustomLink to='/Shows'><Tegaki text='Shows' speed={2}/></CustomLink>
-                <CustomLink to='/About'><Tegaki text='Meet the Band' speed={5}/></CustomLink>
-                <CustomLink to='/Listen'><Tegaki text='Listen' speed={2}/></CustomLink>  
+                    <CustomLink to='/'><Tegaki text='Sweet Maxine' speed={5}/></CustomLink>
+                    <CustomLink to='/Shows'><Tegaki text='Shows' speed={2}/></CustomLink>
+                    <CustomLink to='/About'><Tegaki text='Meet the Band' speed={5}/></CustomLink>
+                    <CustomLink to='/Listen'><Tegaki text='Listen' speed={2}/></CustomLink>  
                 </ul>
             }
         </nav>
@@ -40,7 +41,7 @@ function CustomLink({ to, children, ...props }: CustomLinkProps)
 
     return (
         <li className={isActive ? 'active' : ""}>
-            <Link to={to} {...props}>
+            <Link to={to} {...props} className='link'>
                 {children}
             </Link>
         </li>

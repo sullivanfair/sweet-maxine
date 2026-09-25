@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
+import Home from './components/Home/Home'
 import Shows from './components/Shows/Shows'
 import About from './components/About/About'
 import Listen from './components/Listen/Listen'
@@ -28,7 +28,7 @@ function App()
       <Navbar isHomePage={isHomePage}/>
       <div>
         <Routes>
-          <Route path='/' element={ <Hero text='Sweet Maxine' speed={5}/> } />
+          <Route path='/' element={ <Home/> } />
           <Route path='/Shows' element={ <Shows/> }/>
           <Route path='/About' element={ <About/> }/>
           <Route path='/Listen' element={ <Listen/> }/>

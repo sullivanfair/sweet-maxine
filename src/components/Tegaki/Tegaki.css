@@ -1,9 +1,6 @@
-.outline {
-    outline: 5px solid #ff0000;
-}
-
 .tegaki {
-    outline: #ff0000 solid 1px;
+    padding: 0;
+    margin: 0;
     font-size: 24px;
     color: #4a4a4a;
     transform: scale(1);

@@ -1,29 +1,21 @@
-* {
-    box-sizing: border-box;
-}
-
-/* body {
-    margin: 0;
-} */
-
-.nav {
-    outline: #ff0000 solid 1px;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    gap: 2rem;
+nav {
     padding: 1rem;
-    width: 100%;
 }
 
-.nav ul {
-    outline: #0000ff solid 1px;
+nav ul {
+    list-style: none;
+    display: flex;
     padding: 0;
     margin: 0;
-    list-style: none;
     justify-content: space-evenly;
-    display: flex;
-    gap: 1rem;
-    width: 100%;
+    gap: 0rem;
+    padding: 1rem;
+}
+
+.link,
+.link:visited,
+.link:hover,
+.link:active {
+  text-decoration: none;
+  color: inherit;
 }
