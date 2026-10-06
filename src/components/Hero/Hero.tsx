@@ -5,17 +5,19 @@ import './Hero.css'
 type heroProps = {
     text: string
     speed: number
+    onComplete?: () => void
 }
 
-function Hero({ text, speed }: heroProps)
+function Hero({ text, speed, onComplete }: heroProps)
 {
     return (
         <TegakiRenderer 
-            font={rockSalt}
+            font={ rockSalt }
             time={{ mode: 'uncontrolled', speed: speed }}
+            onComplete={ onComplete }
             className='hero'
         >
-            {text}
+            { text }
         </TegakiRenderer>
     );
 }

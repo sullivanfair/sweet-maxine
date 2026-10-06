@@ -1,4 +1,4 @@
-import Tegaki from '../Tegaki/Tegaki'
+import Tegaki from '../NavItem/NavItem'
 import './Navbar.css'
 import type { ReactNode } from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'

@@ -1,7 +1,7 @@
 import { TegakiRenderer } from "tegaki/react"
 import rockSalt from "../../assets/RockSalt/bundle";
 import { useState } from "react"
-import "./Tegaki.css"
+import "./NavItem.css"
 
 type tegakiProps = {
     text: string
