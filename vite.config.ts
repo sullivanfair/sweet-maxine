@@ -7,5 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude:
       [ 'tegaki' ]
-  }
-})
+  },
+  base: "/sweet-maxine"
+});
