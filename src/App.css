@@ -1,0 +1,10 @@
+* { 
+  outline: 1px solid red;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/paper-background.jpg);
+  background-size: cover;
+  min-height: 100%;
+}

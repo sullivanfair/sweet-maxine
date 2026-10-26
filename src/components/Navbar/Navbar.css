@@ -1,0 +1,21 @@
+nav {
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    gap: 0rem;
+    padding: 1rem;
+}
+
+.link,
+.link:visited,
+.link:hover,
+.link:active {
+  text-decoration: none;
+  color: inherit;
+}
