@@ -14,15 +14,15 @@ function Navbar({ isHomePage }: navbarProps)
             { 
                 isHomePage ? 
                 <ul>
-                    <CustomLink to='/Shows'><Tegaki text='Shows' speed={2}/></CustomLink>
-                    <CustomLink to='/About'><Tegaki text='Meet the Band' speed={5}/></CustomLink>
-                    <CustomLink to='/Listen'><Tegaki text='Listen' speed={2}/></CustomLink>  
+                    <CustomLink to='/shows'><Tegaki text='Shows' speed={2}/></CustomLink>
+                    <CustomLink to='/about'><Tegaki text='Meet the Band' speed={5}/></CustomLink>
+                    <CustomLink to='/listen'><Tegaki text='Listen' speed={2}/></CustomLink>  
                 </ul> : 
                 <ul>
                     <CustomLink to='/'><Tegaki text='Sweet Maxine' speed={5}/></CustomLink>
-                    <CustomLink to='/Shows'><Tegaki text='Shows' speed={2}/></CustomLink>
-                    <CustomLink to='/About'><Tegaki text='Meet the Band' speed={5}/></CustomLink>
-                    <CustomLink to='/Listen'><Tegaki text='Listen' speed={2}/></CustomLink>  
+                    <CustomLink to='/shows'><Tegaki text='Shows' speed={2}/></CustomLink>
+                    <CustomLink to='/about'><Tegaki text='Meet the Band' speed={5}/></CustomLink>
+                    <CustomLink to='/listen'><Tegaki text='Listen' speed={2}/></CustomLink>  
                 </ul>
             }
         </nav>
